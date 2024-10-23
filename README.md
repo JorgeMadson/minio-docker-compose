@@ -11,13 +11,14 @@ Este projeto configura o MinIO, uma solução de armazenamento de objetos compat
 
 1. Clone o repositório:
 
+
 ```bash
    git clone https://github.com/seu-usuario/nome-do-repositorio.git
    cd nome-do-repositorio
 ```
-Atualize as variáveis de ambiente no arquivo docker-compose.yml:
 
-2. No arquivo docker-compose.yml, substitua os valores de MINIO_ROOT_USER e MINIO_ROOT_PASSWORD pelas suas chaves de acesso desejadas.
+2. Atualize as variáveis de ambiente no arquivo docker-compose.yml:
+No arquivo docker-compose.yml, substitua os valores de MINIO_ROOT_USER e MINIO_ROOT_PASSWORD pelas suas chaves de acesso desejadas.
 
 ```yaml
 environment:
